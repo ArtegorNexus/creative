@@ -319,7 +319,7 @@ html {
 			padding: 0 10px;
 		}
 		opacity: 0;
-		transform: translate(0, 120%);
+		transform: translate(0, 20%);
 		transition: all .3s ease 0s;
 		&._active{
 			opacity: 1;
@@ -341,7 +341,7 @@ html {
 			letter-spacing: 0.44em;
 		}
 		opacity: 0;
-		transform: translate(0, 120%);
+		transform: translate(0, 20%);
 		transition: all .3s ease .5s;
 		&._active{
 			opacity: 1;
@@ -350,7 +350,7 @@ html {
 	}
 	&__arrow-block {
 		opacity: 0;
-		transform: translate(0, 120%);
+		transform: translate(0, 20%);
 		transition: all .3s ease 0s;
 		&._active{
 			opacity: 1;
@@ -420,7 +420,7 @@ html {
 		}
 		padding: 0 24px;
 		opacity: 0;
-		transform: translate(0, 120%);
+		transform: translate(0, 20%);
 		transition: all .3s ease 0s;
 		&:nth-child(2) {
 			transition: all .3s ease .2s;
@@ -502,7 +502,7 @@ html {
 		}
 		&_box {
 			opacity: 0;
-			transform: translate(120%, 0);
+			transform: translate(0, 20%);
 			transition: all .5s ease .3s;
 			&._active{
 				opacity: 1;
@@ -523,7 +523,7 @@ html {
 		}
 		&_box {
 			opacity: 0;
-			transform: translate(-120%, 0);
+			transform: translate(0, 20%);
 			transition: all .5s ease .3s;
 			&._active{
 				opacity: 1;
@@ -596,7 +596,7 @@ html {
 		margin-bottom: 76px;
 		opacity: 0;
 		transition: all .3s ease .3s;
-		transform: translate(0, 120%);
+		transform: translate(0, 20%);
 		&._active {
 			opacity: 1;
 			transform: translate(0, 0);
@@ -632,7 +632,7 @@ html {
 		&:nth-child(4) {
 			transition: all .3s ease 1.2s;
 		}
-		transform: translate(0, 120%);
+		transform: translate(0, 20%);
 		&._active {
 			opacity: 1;
 			transform: translate(0, 0);
@@ -734,7 +734,7 @@ html {
 			margin: 0 auto;
 		}
 		opacity: 0;
-		transform: translate(-120%, 0);
+		transform: translate(0, 20%);
 		transition: all .3s ease 0s;
 		&._active{
 			opacity: 1;
