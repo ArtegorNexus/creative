@@ -172,8 +172,8 @@ html {
   opacity: 0;
   -webkit-transform: scale(0);
           transform: scale(0);
-  -webkit-transition: all 0.5s ease 0.3s;
-  transition: all 0.5s ease 0.3s;
+  -webkit-transition: all 0.5s ease 0.1s;
+  transition: all 0.5s ease 0.1s;
 }
 .title__back {
   opacity: 0.18;
@@ -589,16 +589,16 @@ html {
   }
 }
 .weare__item:nth-child(2) {
+  -webkit-transition: all 0.3s ease 0.1s;
+  transition: all 0.3s ease 0.1s;
+}
+.weare__item:nth-child(3) {
   -webkit-transition: all 0.3s ease 0.2s;
   transition: all 0.3s ease 0.2s;
 }
-.weare__item:nth-child(3) {
-  -webkit-transition: all 0.3s ease 0.4s;
-  transition: all 0.3s ease 0.4s;
-}
 .weare__item:nth-child(4) {
-  -webkit-transition: all 0.3s ease 0.6s;
-  transition: all 0.3s ease 0.6s;
+  -webkit-transition: all 0.3s ease 0.3s;
+  transition: all 0.3s ease 0.3s;
 }
 .weare__item._active {
   opacity: 1;
@@ -692,8 +692,8 @@ html {
   opacity: 0;
   -webkit-transform: translate(0, 20%);
           transform: translate(0, 20%);
-  -webkit-transition: all 0.5s ease 0.3s;
-  transition: all 0.5s ease 0.3s;
+  -webkit-transition: all 0.5s ease 0.1s;
+  transition: all 0.5s ease 0.1s;
 }
 .afterwe__left_box._active {
   opacity: 1;
@@ -720,8 +720,8 @@ html {
   opacity: 0;
   -webkit-transform: translate(0, 20%);
           transform: translate(0, 20%);
-  -webkit-transition: all 0.5s ease 0.3s;
-  transition: all 0.5s ease 0.3s;
+  -webkit-transition: all 0.5s ease 0.1s;
+  transition: all 0.5s ease 0.1s;
 }
 .afterwe__right_box._active {
   opacity: 1;
@@ -786,8 +786,8 @@ html {
   text-align: center;
   margin-bottom: 76px;
   opacity: 0;
-  -webkit-transition: all 0.3s ease 0.3s;
-  transition: all 0.3s ease 0.3s;
+  -webkit-transition: all 0.3s ease 0.1s;
+  transition: all 0.3s ease 0.1s;
   -webkit-transform: translate(0, 20%);
           transform: translate(0, 20%);
 }
@@ -813,8 +813,8 @@ html {
           flex: 0 1 25%;
   padding: 0 15px;
   opacity: 0;
-  -webkit-transition: all 0.3s ease 0.3s;
-  transition: all 0.3s ease 0.3s;
+  -webkit-transition: all 0.3s ease 0.1s;
+  transition: all 0.3s ease 0.1s;
   -webkit-transform: translate(0, 20%);
           transform: translate(0, 20%);
 }
@@ -837,16 +837,16 @@ html {
   }
 }
 .blog__item:nth-child(2) {
-  -webkit-transition: all 0.3s ease 0.6s;
-  transition: all 0.3s ease 0.6s;
+  -webkit-transition: all 0.3s ease 0.2s;
+  transition: all 0.3s ease 0.2s;
 }
 .blog__item:nth-child(3) {
-  -webkit-transition: all 0.3s ease 0.9s;
-  transition: all 0.3s ease 0.9s;
+  -webkit-transition: all 0.3s ease 0.3s;
+  transition: all 0.3s ease 0.3s;
 }
 .blog__item:nth-child(4) {
-  -webkit-transition: all 0.3s ease 1.2s;
-  transition: all 0.3s ease 1.2s;
+  -webkit-transition: all 0.3s ease 0.4s;
+  transition: all 0.3s ease 0.4s;
 }
 .blog__item._active {
   opacity: 1;
@@ -1016,8 +1016,8 @@ html {
   line-height: 37px;
   margin-bottom: 69px;
   opacity: 0;
-  -webkit-transition: all 0.3s ease 0.3s;
-  transition: all 0.3s ease 0.3s;
+  -webkit-transition: all 0.3s ease 0.1s;
+  transition: all 0.3s ease 0.1s;
   -webkit-transform: translate(0, 120%);
           transform: translate(0, 120%);
 }
@@ -1044,8 +1044,8 @@ html {
           flex: 0 1 25%;
   margin: 0 15px;
   opacity: 0;
-  -webkit-transition: all 0.3s ease 0.3s;
-  transition: all 0.3s ease 0.3s;
+  -webkit-transition: all 0.3s ease 0.1s;
+  transition: all 0.3s ease 0.1s;
   -webkit-transform: translate(0, 20%);
           transform: translate(0, 20%);
 }
@@ -1057,16 +1057,16 @@ html {
   }
 }
 .team__item:nth-child(2) {
-  -webkit-transition: all 0.3s ease 0.6s;
-  transition: all 0.3s ease 0.6s;
+  -webkit-transition: all 0.3s ease 0.2s;
+  transition: all 0.3s ease 0.2s;
 }
 .team__item:nth-child(3) {
-  -webkit-transition: all 0.3s ease 0.9s;
-  transition: all 0.3s ease 0.9s;
+  -webkit-transition: all 0.3s ease 0.3s;
+  transition: all 0.3s ease 0.3s;
 }
 .team__item:nth-child(4) {
-  -webkit-transition: all 0.3s ease 1.2s;
-  transition: all 0.3s ease 1.2s;
+  -webkit-transition: all 0.3s ease 0.4s;
+  transition: all 0.3s ease 0.4s;
 }
 .team__item._active {
   opacity: 1;

@@ -6,6 +6,7 @@ let weareBlock = document.querySelector('.weare');
 let scrollArrow = document.querySelector('.header__arrow-block');
 let headerBlock = document.querySelector('.header');
 let headerHeight = headerBlock.clientHeight;
+let headerMenu = document.querySelector('.menu-header__list');
 
 
 function addActive(){
@@ -14,6 +15,11 @@ function addActive(){
 	document.body.classList.toggle('_ovhid');
 };
 
+headerMenu.addEventListener('click', function(event) {
+	if (event.target.closest('.list-menu__item')) {
+		addActive();
+	}
+});
 
 scrollArrow.addEventListener('click', function(event){
 	console.log(headerHeight);
