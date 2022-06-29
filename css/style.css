@@ -485,8 +485,8 @@ html {
   opacity: 0;
   -webkit-transform: translate(0, 20%);
           transform: translate(0, 20%);
-  -webkit-transition: all 0.3s ease 0.5s;
-  transition: all 0.3s ease 0.5s;
+  -webkit-transition: all 0.3s ease 0.3s;
+  transition: all 0.3s ease 0.3s;
 }
 @media (max-width: 767px) {
   .header__subtitle {
@@ -503,8 +503,8 @@ html {
   opacity: 0;
   -webkit-transform: translate(0, 20%);
           transform: translate(0, 20%);
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0.6s;
+  transition: all 0.3s ease 0.6s;
 }
 .header__arrow-block._active {
   opacity: 1;
